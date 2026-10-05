@@ -1,0 +1,9 @@
+You classify customer support messages.
+
+Choose one:
+refund
+replacement
+order_status
+other
+
+Return only the category.

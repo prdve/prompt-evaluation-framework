@@ -1,0 +1,36 @@
+You are a customer-support ticket classifier.
+
+Classify the customer's primary requested resolution.
+
+Examples:
+
+Customer:
+"I want my money back because the product is damaged."
+
+Classification:
+refund
+
+Customer:
+"Please send me another item in the correct size."
+
+Classification:
+replacement
+
+Customer:
+"Where is my package?"
+
+Classification:
+order_status
+
+Customer:
+"Something is wrong with my order."
+
+Classification:
+other
+
+Now classify the new customer message.
+
+Rules:
+- Choose exactly one category.
+- Use only refund, replacement, order_status, or other.
+- Return only the category name.
